@@ -1,0 +1,19 @@
+C:\Users\Zunair\source\repos\Billing Application Forms APT 2023\Billing Application Forms APT 2023\bin\Debug\Billing Application Forms APT 2023.exe.config
+C:\Users\Zunair\source\repos\Billing Application Forms APT 2023\Billing Application Forms APT 2023\bin\Debug\Billing Application Forms APT 2023.exe
+C:\Users\Zunair\source\repos\Billing Application Forms APT 2023\Billing Application Forms APT 2023\bin\Debug\Billing Application Forms APT 2023.pdb
+C:\Users\Zunair\source\repos\Billing Application Forms APT 2023\Billing Application Forms APT 2023\obj\Debug\Billing Application Forms APT 2023.csproj.AssemblyReference.cache
+C:\Users\Zunair\source\repos\Billing Application Forms APT 2023\Billing Application Forms APT 2023\obj\Debug\Billing_Application_Forms_APT_2023.Properties.Resources.resources
+C:\Users\Zunair\source\repos\Billing Application Forms APT 2023\Billing Application Forms APT 2023\obj\Debug\Billing Application Forms APT 2023.csproj.GenerateResource.cache
+C:\Users\Zunair\source\repos\Billing Application Forms APT 2023\Billing Application Forms APT 2023\obj\Debug\Billing Application Forms APT 2023.csproj.CoreCompileInputs.cache
+C:\Users\Zunair\source\repos\Billing Application Forms APT 2023\Billing Application Forms APT 2023\obj\Debug\Billing Application Forms APT 2023.exe
+C:\Users\Zunair\source\repos\Billing Application Forms APT 2023\Billing Application Forms APT 2023\obj\Debug\Billing Application Forms APT 2023.pdb
+C:\Users\Zunair\source\repos\Billing Application Forms APT 2023\Billing Application Forms APT 2023\obj\Debug\Billing_Application_Forms_APT_2023.frmAdminDashboard.resources
+C:\Users\Zunair\source\repos\Billing Application Forms APT 2023\Billing Application Forms APT 2023\obj\Debug\Billing_Application_Forms_APT_2023.UI.frmUserDashboard.resources
+C:\Users\Zunair\source\repos\Billing Application Forms APT 2023\Billing Application Forms APT 2023\obj\Debug\Billing_Application_Forms_APT_2023.UI.frmUsers.resources
+C:\Users\Zunair\source\repos\Billing Application Forms APT 2023\Billing Application Forms APT 2023\obj\Debug\Billing_Application_Forms_APT_2023.UI.frmLogin.resources
+C:\Users\Zunair\source\repos\Billing Application Forms APT 2023\Billing Application Forms APT 2023\obj\Debug\Billing_Application_Forms_APT_2023.UI.frmCategories.resources
+C:\Users\Zunair\source\repos\Billing Application Forms APT 2023\Billing Application Forms APT 2023\obj\Debug\Billing_Application_Forms_APT_2023.UI.frmProducts.resources
+C:\Users\Zunair\source\repos\Billing Application Forms APT 2023\Billing Application Forms APT 2023\obj\Debug\Billing_Application_Forms_APT_2023.UI.frmDeaCust.resources
+C:\Users\Zunair\source\repos\Billing Application Forms APT 2023\Billing Application Forms APT 2023\obj\Debug\Billing_Application_Forms_APT_2023.UI.frmPurchaseAndSales.resources
+C:\Users\Zunair\source\repos\Billing Application Forms APT 2023\Billing Application Forms APT 2023\obj\Debug\Billing_Application_Forms_APT_2023.UI.frmTransactions.resources
+C:\Users\Zunair\source\repos\Billing Application Forms APT 2023\Billing Application Forms APT 2023\obj\Debug\Billing_Application_Forms_APT_2023.UI.frmInventory.resources
