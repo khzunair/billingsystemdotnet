@@ -61,5 +61,10 @@ namespace Billing_Application_Forms_APT_2023.UI
             frmDeaCust fdc = new frmDeaCust();
             fdc.Show();
         }
+
+        private void menuStripTop_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }

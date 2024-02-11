@@ -96,6 +96,7 @@
             this.lblTop.Size = new System.Drawing.Size(215, 28);
             this.lblTop.TabIndex = 0;
             this.lblTop.Text = "PURCHASE AND SALES";
+            this.lblTop.Click += new System.EventHandler(this.lblTop_Click);
             // 
             // panel1
             // 

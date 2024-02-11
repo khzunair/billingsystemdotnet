@@ -343,5 +343,10 @@ namespace Billing_Application_Forms_APT_2023.UI
             //Display the return amount as well
             txtReturnAmount.Text = returnAmount.ToString();
         }
+
+        private void lblTop_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -57,6 +57,7 @@
             this.menuStripTop.Size = new System.Drawing.Size(1112, 28);
             this.menuStripTop.TabIndex = 13;
             this.menuStripTop.Text = "menuStrip1";
+            this.menuStripTop.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStripTop_ItemClicked);
             // 
             // purchaseToolStripMenuItem
             // 
@@ -105,9 +106,9 @@
             this.lblFooter.Location = new System.Drawing.Point(781, 10);
             this.lblFooter.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFooter.Name = "lblFooter";
-            this.lblFooter.Size = new System.Drawing.Size(169, 23);
+            this.lblFooter.Size = new System.Drawing.Size(199, 23);
             this.lblFooter.TabIndex = 0;
-            this.lblFooter.Text = "zunairkhawaja.online";
+            this.lblFooter.Text = "site.zunairkhawaja.online";
             // 
             // lblSHead
             // 

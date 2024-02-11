@@ -1,13 +1,6 @@
 ﻿using Billing_Application_Forms_APT_2023.BLL;
 using Billing_Application_Forms_APT_2023.DAL;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Billing_Application_Forms_APT_2023.UI
@@ -23,28 +16,39 @@ namespace Billing_Application_Forms_APT_2023.UI
         {
 
         }
+
         loginBLL l = new loginBLL();
         loginDAL dal = new loginDAL();
         public static string loggedIn;
+
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            // Check if any of the input fields are empty
+            if (string.IsNullOrEmpty(txtUsername.Text) || string.IsNullOrEmpty(txtPassword.Text) || string.IsNullOrEmpty(cmbUserType.Text))
+            {
+                MessageBox.Show("Please fill in all the fields.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return; // Exit the method if validation fails
+            }
+
+            // Proceed with login
             l.username = txtUsername.Text.Trim();
             l.password = txtPassword.Text.Trim();
             l.user_type = cmbUserType.Text.Trim();
 
-            //Checking the login credentials
-            bool sucess = dal.loginCheck(l);
-            if (sucess == true)
+            // Checking the login credentials
+            bool success = dal.loginCheck(l);
+            if (success)
             {
-                //Login Successfull
+                // Login Successful
                 MessageBox.Show("Login Successful.");
                 loggedIn = l.username;
-                //Need to open Respective Forms based on User Type
+
+                // Open Respective Forms based on User Type
                 switch (l.user_type)
                 {
                     case "Admin":
                         {
-                            //Display Admin Dashboard
+                            // Display Admin Dashboard
                             frmAdminDashboard admin = new frmAdminDashboard();
                             admin.Show();
                             this.Hide();
@@ -53,7 +57,7 @@ namespace Billing_Application_Forms_APT_2023.UI
 
                     case "User":
                         {
-                            //Display User Dashboard
+                            // Display User Dashboard
                             frmUserDashboard user = new frmUserDashboard();
                             user.Show();
                             this.Hide();
@@ -62,7 +66,7 @@ namespace Billing_Application_Forms_APT_2023.UI
 
                     default:
                         {
-                            //Display an error message
+                            // Display an error message
                             MessageBox.Show("Invalid User Type.");
                         }
                         break;
@@ -70,9 +74,14 @@ namespace Billing_Application_Forms_APT_2023.UI
             }
             else
             {
-                //login Failed
+                // Login Failed
                 MessageBox.Show("Login Failed. Try Again");
             }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
